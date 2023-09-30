@@ -3,38 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shopee-like App</title>
+  <title>Web Jualan Jilbab</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+  <!-- Header -->
   <header>
     <div class="logo">
-      <img src="shopee_logo.png" alt="Shopee Logo">
+      <img src="logo.jpg" alt="Logo Toko Jilbab">
+      <h1>Toko Jilbab</h1>
     </div>
-    <div class="search-bar">
-      <input type="text" placeholder="Cari produk, merek, dan toko">
-      <button>Cari</button>
-    </div>
-    <div class="user-menu">
-      <button>Masuk</button>
-      <button>Daftar</button>
-      <button>Keranjang</button>
-    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">Koleksi</a></li>
+        <li><a href="#">Tentang Kami</a></li>
+        <li><a href="#">Hubungi Kami</a></li>
+      </ul>
+    </nav>
   </header>
-  
-  <section id="productList">
-    <div class="product">
-      <img src="product1.jpg" alt="Product 1">
-      <h2>Product 1</h2>
-      <p>Description of Product 1.</p>
-      <span>Rp 100,000</span>
-    </div>
-    
-    <!-- Add more products here -->
-  </section>
 
+  <!-- Main Content -->
+  <main>
+    <section id="productList">
+      <div class="product">
+        <img src="model1.jpg" alt="Jilbab 1">
+        <h2>Jilbab Polos</h2>
+        <p>Jilbab polos dengan berbagai pilihan warna.</p>
+        <span>Rp 50,000</span>
+        <button>Beli Sekarang</button>
+      </div>
+
+      <div class="product">
+        <img src="model2.jpeg" alt="Jilbab 2">
+        <h2>Jilbab Motif</h2>
+        <p>Jilbab dengan motif cantik untuk tampilan elegan.</p>
+        <span>Rp 70,000</span>
+        <button>Beli Sekarang</button>
+      </div>
+
+      <!-- Add more products here -->
+    </section>
+  </main>
+
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2023 Shopee-like App</p>
+    <div class="footer-content">
+      <p>&copy; 2023 Toko Jilbab</p>
+      <ul class="footer-links">
+        <li><a href="#">Kebijakan Privasi</a></li>
+        <li><a href="#">Syarat dan Ketentuan</a></li>
+      </ul>
+    </div>
   </footer>
+
 </body>
 </html>
