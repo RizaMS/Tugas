@@ -5,37 +5,13 @@ body {
 }
 
 header {
-  background-color: #ff6600;
+  background-color: #f45a36;
   color: white;
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
+  padding: 20px;
 }
 
-.logo img {
-  max-width: 100px;
-}
-
-.search-bar input {
-  padding: 5px;
-  width: 300px;
-}
-
-.search-bar button {
-  padding: 5px 10px;
-  background-color: #ff3300;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
-.user-menu button {
-  padding: 5px 10px;
-  margin-left: 10px;
-  background-color: #ff3300;
-  border: none;
-  color: white;
-  cursor: pointer;
+section#productList {
+  padding: 20px;
 }
 
 .product {
@@ -55,5 +31,5 @@ header {
 footer {
   background-color: #f0f0f0;
   text-align: center;
-  padding: 10px 20px;
+  padding: 10px;
 }
